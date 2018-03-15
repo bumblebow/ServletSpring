@@ -23,6 +23,6 @@ public class Kyle {
     }
     public void hello(){
         System.out.println(
-            "Local say hello"+this.name);
+            "Local say hello!" + this.name);
     }
 }
