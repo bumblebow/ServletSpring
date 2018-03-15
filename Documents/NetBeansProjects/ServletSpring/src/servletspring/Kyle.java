@@ -10,10 +10,19 @@ package servletspring;
  * @author 90462
  */
 public class Kyle {
+   // Kyle(){
+        
+  //  }
+    String name;
+    Kyle(String name){ //have to send parameter
+        this.name = name; //this. = access variable
+        this.hello();
+    }
     public String sayHello(){
-        return "hello";
+        return "hello"+this.name;
     }
     public void hello(){
-        
+        System.out.println(
+            "Local say hello"+this.name);
     }
 }
