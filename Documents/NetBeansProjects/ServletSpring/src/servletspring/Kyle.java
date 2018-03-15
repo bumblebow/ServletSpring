@@ -13,6 +13,7 @@ public class Kyle {
    // Kyle(){
         
   //  }
+    public static String prefix = "hello";
     String name;
     Kyle(String name){ //have to send parameter
         this.name = name; //this. = access variable
