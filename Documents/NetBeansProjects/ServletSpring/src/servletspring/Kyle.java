@@ -10,6 +10,10 @@ package servletspring;
  * @author 90462
  */
 public class Kyle {
-    
-    
+    public String sayHello(){
+        return "hello";
+    }
+    public void hello(){
+        
+    }
 }
