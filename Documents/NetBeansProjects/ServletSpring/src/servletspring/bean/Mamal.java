@@ -9,12 +9,6 @@ package servletspring.bean;
  *
  * @author 90462
  */
-public class Animal {
-    public String say(){
-        return "Hello";
-    }
-    public final void walk(){
-        System.out.println("Animal can walk");
-    }
-    
+public abstract class Mamal extends Animal{
+    public abstract void feed();
 }

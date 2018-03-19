@@ -4,17 +4,14 @@
  * and open the template in the editor.
  */
 package servletspring.bean;
-
+import servlet.spring.interfaces.Canfly;
 /**
  *
  * @author 90462
  */
-public class Animal {
-    public String say(){
-        return "Hello";
+public class Bird extends Animal implements Canfly{
+    @Override
+    public void fly(){
+        System.out.println("Bird Can Fly...");
     }
-    public final void walk(){
-        System.out.println("Animal can walk");
-    }
-    
 }

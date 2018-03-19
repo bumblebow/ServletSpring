@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package servletspring.bean;
+package servlet.spring.interfaces;
 
 /**
  *
  * @author 90462
  */
-public class Animal {
-    public String say(){
-        return "Hello";
-    }
-    public final void walk(){
-        System.out.println("Animal can walk");
-    }
-    
+public interface CanSwim {
+    public void swim();
 }
